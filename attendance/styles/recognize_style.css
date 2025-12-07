@@ -1,0 +1,18 @@
+
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 20px; }
+    button { margin: 5px; padding: 6px; font-size: 14px; }
+    .video-container {
+      position: relative;
+      display: inline-block;
+    }
+    video, canvas {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    #status { margin-top: 10px; font-weight: bold; }
+  

@@ -1,0 +1,72 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    .dashboard {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      width: 380px;
+      text-align: center;
+      padding: 40px 30px;
+      animation: slideUp 1s ease;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: block;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      margin: 12px 0;
+      padding: 12px;
+      border-radius: 8px;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 10px rgba(37,117,252,0.3);
+    }
+
+    a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(37,117,252,0.5);
+    }
+
+    .logout {
+      background: #ff4b2b;
+      box-shadow: 0 4px 10px rgba(255,75,43,0.3);
+    }
+
+    .logout:hover {
+      box-shadow: 0 6px 15px rgba(255,75,43,0.5);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
